@@ -37,7 +37,9 @@ A GraphQL Database Interface
 - Self-hosted or as-a-service
 
 ### To run: 
+
 /backend npm run dev
+
 /frontend npm run dev
 
 localhost:7777
