@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/signup.js":
-/*!*************************!*\
-  !*** ./pages/signup.js ***!
-  \*************************/
+/***/ "./pages/items.js":
+/*!************************!*\
+  !*** ./pages/items.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,10 +104,10 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/React-E-Commerce-Store/frontend/pages/signup.js";
+var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/React-E-Commerce-Store/frontend/pages/items.js";
 
 
-var Signup = function Signup(props) {
+var Items = function Items(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -120,21 +120,21 @@ var Signup = function Signup(props) {
       lineNumber: 5
     },
     __self: this
-  }, "sign up"));
+  }, "items"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Signup);
+/* harmony default export */ __webpack_exports__["default"] = (Items);
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/signup.js ***!
-  \*******************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/items.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/signup.js */"./pages/signup.js");
+module.exports = __webpack_require__(/*! ./pages/items.js */"./pages/items.js");
 
 
 /***/ }),
@@ -151,4 +151,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=signup.js.map
+//# sourceMappingURL=items.js.map

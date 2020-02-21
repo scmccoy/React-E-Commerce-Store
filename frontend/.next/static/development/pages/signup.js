@@ -57,7 +57,7 @@ module.exports = function(originalModule) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/Advanced-React/sick-fits/frontend/pages/signup.js";
+var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/React-E-Commerce-Store/frontend/pages/signup.js";
 
 
 var Signup = function Signup(props) {
@@ -99,7 +99,7 @@ var Signup = function Signup(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/signup.js ***!
   \*******************************/
@@ -124,5 +124,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=signup.js.map

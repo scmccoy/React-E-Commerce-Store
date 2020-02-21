@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/me.js"],{
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
@@ -46,10 +46,10 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/me.js":
+/*!*********************!*\
+  !*** ./pages/me.js ***!
+  \*********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -57,10 +57,10 @@ module.exports = function(originalModule) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/React-E-Commerce-Store/frontend/pages/index.js";
+var _jsxFileName = "/Users/shane.mccoy/OneDrive - Northwest Evaluation Association/Desktop/sandbox/React-E-Commerce-Store/frontend/pages/me.js";
 
 
-var Home = function Home(props) {
+var Account = function Account(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -73,10 +73,10 @@ var Home = function Home(props) {
       lineNumber: 5
     },
     __self: this
-  }, "Hello"));
+  }, "account"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (Account);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -93,21 +93,21 @@ var Home = function Home(props) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/me")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 8:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 7:
+/*!***************************!*\
+  !*** multi ./pages/me.js ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/me', function() {
+module.exports = __webpack_require__(/*! ./pages/me.js */"./pages/me.js");
 
 return { page: module.exports.default }});
 
@@ -124,5 +124,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[7,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=me.js.map
